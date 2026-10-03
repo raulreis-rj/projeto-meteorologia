@@ -2,12 +2,12 @@
 
 Aplicação web de meteorologia desenvolvida como projeto pessoal para praticar os fundamentos de **HTML, CSS e JavaScript**.
 
-A aplicação permite pesquisar uma cidade do mundo e consultar informações atuais sobre as condições meteorológicas por meio do consumo da **API da OpenWeather**.
+A aplicação permite pesquisar uma cidade do mundo e consultar informações atuais sobre as condições meteorológicas por meio do consumo da **OpenWeather API**.
 
 ## Funcionalidades
 
 * Pesquisa de cidades do mundo todo.
-* Consumo de dados meteorológicos por meio da API da OpenWeather.
+* Consumo de dados meteorológicos por meio da OpenWeather API.
 * Exibição da temperatura atual.
 * Exibição da temperatura máxima.
 * Exibição da temperatura mínima.
@@ -44,9 +44,29 @@ A requisição utiliza parâmetros como:
 * Unidade de temperatura em Celsius.
 * Idioma dos dados em português.
 
+## Uso da API
+
+Por questões de segurança, nenhuma API Key pessoal é disponibilizada neste repositório.
+
+Para executar o projeto localmente:
+
+1. Crie uma conta na [OpenWeather](https://openweathermap.org/).
+2. Gere uma API Key.
+3. Abra o arquivo `script.js`.
+4. Substitua `SUA_API_KEY_AQUI` pela sua própria chave.
+5. Execute o projeto localmente.
+
+Cada usuário deve utilizar sua própria API Key para realizar as consultas à API.
+
 ## Tratamento de erro
 
 Quando a cidade pesquisada não é encontrada, a aplicação apresenta uma mensagem informando o usuário e exibe uma imagem de erro (`404.svg`).
+
+## Segurança
+
+A API Key utilizada durante o desenvolvimento local não é publicada neste repositório.
+
+O código disponibilizado no GitHub contém apenas um campo reservado para que o usuário informe sua própria API Key.
 
 ## Status
 
@@ -57,4 +77,5 @@ Projeto concluído como projeto pessoal de estudo.
 Raul Reis
 
 GitHub: [raulreis-rj](https://github.com/raulreis-rj)
+
 
